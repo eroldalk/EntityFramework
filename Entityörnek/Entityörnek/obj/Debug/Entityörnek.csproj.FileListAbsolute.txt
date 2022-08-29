@@ -1,0 +1,16 @@
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\bin\Debug\Entityörnek.exe.config
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\bin\Debug\Entityörnek.exe
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\bin\Debug\Entityörnek.pdb
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Entityörnek.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Entityörnek.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Entityörnek.Form1.resources
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Entityörnek.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Entityörnek.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Entityörnek.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Entityörnek.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Entityörnek.exe
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Entityörnek.pdb
