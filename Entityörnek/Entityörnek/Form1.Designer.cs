@@ -111,6 +111,7 @@
             this.BtnGüncelle.TabIndex = 3;
             this.BtnGüncelle.Text = "Güncelle";
             this.BtnGüncelle.UseVisualStyleBackColor = true;
+            this.BtnGüncelle.Click += new System.EventHandler(this.BtnGüncelle_Click);
             // 
             // BtnKaydet
             // 

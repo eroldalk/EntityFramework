@@ -77,7 +77,16 @@ namespace Entityörnek
             MessageBox.Show("Öğrenci Sistemden Silindi");
         }
 
-
+        private void BtnGüncelle_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(txtogrenciid.Text);
+            var y = db.TBLOGRENCİ.Find(id);
+            y.AD=txtad.Text;
+            y.SOYAD = txtsoyad.Text;
+            y.FOTOGRAF = txtfoto.Text;
+            db.SaveChanges();
+            MessageBox.Show("Öğrenci Bilgileri Başarıyla Güncellendi");
+        }
 
 
 
