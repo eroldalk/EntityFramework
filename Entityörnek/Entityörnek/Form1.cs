@@ -69,12 +69,12 @@ namespace Entityörnek
 
         private void BtnSil_Click(object sender, EventArgs e)
         {
+
             int id = Convert.ToInt32(txtogrenciid.Text);
             var x = db.TBLOGRENCİ.Find(id);
             db.TBLOGRENCİ.Remove(x);
             db.SaveChanges();
             MessageBox.Show("Öğrenci Sistemden Silindi");
-
         }
 
 
