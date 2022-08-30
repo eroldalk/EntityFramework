@@ -109,9 +109,60 @@ namespace Entityörnek
             dataGridView1.Columns[3].Visible = false; 
             dataGridView1.Columns[4].Visible = false;
         }
+        private void txtad_TextChanged(object sender, EventArgs e)
+        {
+            string aranan = txtad.Text;
+            var degerler = from item in db.TBLOGRENCİ          //aradığın kişiyi bulma textsoyad
+                           where item.AD.Contains(aranan)
+                           select item;
+            dataGridView1.DataSource=degerler.ToList();
+        }
 
-
-
+        private void btnlingentity_Click(object sender, EventArgs e)
+        {
+            //asc -ascending sıralama
+            if(radioButton1.Checked==true)
+            {
+                List<TBLOGRENCİ> liste1=db.TBLOGRENCİ.OrderBy(P=>P.AD).ToList();
+                dataGridView1.DataSource=liste1;
+            }
+            //desc - descending
+            if(radioButton2.Checked==true)
+            {
+                List<TBLOGRENCİ> liste2=db.TBLOGRENCİ.OrderByDescending(p=>p.AD).ToList();
+                dataGridView1.DataSource = liste2;
+            }
+            if (radioButton3.Checked == true)
+            {
+                List<TBLOGRENCİ> liste3 = db.TBLOGRENCİ.OrderByDescending(p => p.AD).Take(5).ToList();
+                dataGridView1.DataSource = liste3;
+            }
+            if (radioButton4.Checked == true)
+            {
+                List<TBLOGRENCİ> liste4 = db.TBLOGRENCİ.Where(p => p.ID==6).ToList();
+                dataGridView1.DataSource = liste4;
+            }
+            if (radioButton5.Checked == true)
+            {
+                List<TBLOGRENCİ> liste5 = db.TBLOGRENCİ.Where(p => p.AD.StartsWith("A")).ToList();
+                dataGridView1.DataSource = liste5;
+            }
+            if (radioButton6.Checked == true)
+            {
+                List<TBLOGRENCİ> liste6 = db.TBLOGRENCİ.Where(p => p.AD.EndsWith("A")).ToList();
+                dataGridView1.DataSource = liste6;
+            }
+            if (radioButton7.Checked == true)
+            {
+                bool deger = db.TBLKULUPLER.Any();
+                MessageBox.Show(deger.ToString(),"Bilgi",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            }
+            if (radioButton8.Checked == true)
+            {
+                int toplam = db.TBLOGRENCİ.Count();
+                MessageBox.Show(toplam.ToString(), "Toplam Öğrenci Sayısı", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
 
 
 
@@ -139,6 +190,9 @@ namespace Entityörnek
 
         }
 
-        
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
