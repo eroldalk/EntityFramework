@@ -17,6 +17,10 @@ namespace Entityörnek
         {
             InitializeComponent();
         }
+
+           DbSınavOgrenciEntities db = new DbSınavOgrenciEntities();
+
+
         private void btnDersListesi_Click(object sender, EventArgs e)
         {
             SqlConnection baglanti = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=DbSınavOgrenci;Integrated Security=True");
@@ -30,15 +34,48 @@ namespace Entityörnek
 
         private void BtnListele_Click(object sender, EventArgs e)
         {
-            DbSınavOgrenciEntities db = new DbSınavOgrenciEntities();
+            
             dataGridView1.DataSource = db.TBLOGRENCİ.ToList();
+            dataGridView1.Columns[3].Visible = false;  // sütünları göstermemek için
+            dataGridView1.Columns[4].Visible = false;
+        }
+         private void btnNotListele_Click(object sender, EventArgs e)
+         {
+            var query = from item in db.TBLNOTLAR
+                        select new {item.NOTID,item.OGR,item.DERS,item.SINAV1, 
+                            item.SINAV2, item.SINAV3, item.ORTALAMA,item.DURUM };
+            dataGridView1.DataSource=query.ToList();
+
+           // dataGridView1.DataSource = db.TBLNOTLAR.ToList();
+         }
+
+         private void BtnKaydet_Click(object sender, EventArgs e)
+         {
+            TBLOGRENCİ t = new TBLOGRENCİ();
+            t.AD=txtad.Text;
+            t.SOYAD=txtsoyad.Text;
+            db.TBLOGRENCİ.Add(t);
+            db.SaveChanges();
+            MessageBox.Show("Öğrenci Listeye Eklenmiştir.");
+
+            
+            //TBLDERSLER a = new TBLDERSLER();
+            //a.DERSAD=txtdersad.Text;               ders kayıtı için sorun
+            //db.TBLDERSLER.Add(a);
+            //db.SaveChanges();
+            //MessageBox.Show("Ders Listeye Eklenmiştir.");
         }
 
 
+        private void BtnSil_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(txtogrenciid.Text);
+            var x = db.TBLOGRENCİ.Find(id);
+            db.TBLOGRENCİ.Remove(x);
+            db.SaveChanges();
+            MessageBox.Show("Öğrenci Sistemden Silindi");
 
-
-
-
+        }
 
 
 

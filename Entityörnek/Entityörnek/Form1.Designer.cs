@@ -121,6 +121,7 @@
             this.BtnKaydet.TabIndex = 4;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.UseVisualStyleBackColor = true;
+            this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // BtnSil
             // 
@@ -131,6 +132,7 @@
             this.BtnSil.TabIndex = 5;
             this.BtnSil.Text = "Sil";
             this.BtnSil.UseVisualStyleBackColor = true;
+            this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
             // groupBox1
             // 
@@ -412,6 +414,7 @@
             this.btnNotListele.TabIndex = 18;
             this.btnNotListele.Text = "Not Listele";
             this.btnNotListele.UseVisualStyleBackColor = true;
+            this.btnNotListele.Click += new System.EventHandler(this.btnNotListele_Click);
             // 
             // Form1
             // 
