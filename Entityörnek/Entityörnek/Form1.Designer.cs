@@ -63,6 +63,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.btnDersListesi = new System.Windows.Forms.Button();
             this.btnNotListele = new System.Windows.Forms.Button();
+            this.btnprosedur = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -96,7 +97,7 @@
             this.BtnBul.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnBul.Location = new System.Drawing.Point(12, 404);
             this.BtnBul.Name = "BtnBul";
-            this.BtnBul.Size = new System.Drawing.Size(149, 49);
+            this.BtnBul.Size = new System.Drawing.Size(149, 35);
             this.BtnBul.TabIndex = 2;
             this.BtnBul.Text = "Bul";
             this.BtnBul.UseVisualStyleBackColor = true;
@@ -398,7 +399,7 @@
             // btnDersListesi
             // 
             this.btnDersListesi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnDersListesi.Location = new System.Drawing.Point(12, 459);
+            this.btnDersListesi.Location = new System.Drawing.Point(12, 445);
             this.btnDersListesi.Name = "btnDersListesi";
             this.btnDersListesi.Size = new System.Drawing.Size(149, 38);
             this.btnDersListesi.TabIndex = 17;
@@ -409,19 +410,31 @@
             // btnNotListele
             // 
             this.btnNotListele.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnNotListele.Location = new System.Drawing.Point(12, 503);
+            this.btnNotListele.Location = new System.Drawing.Point(12, 489);
             this.btnNotListele.Name = "btnNotListele";
-            this.btnNotListele.Size = new System.Drawing.Size(149, 47);
+            this.btnNotListele.Size = new System.Drawing.Size(149, 35);
             this.btnNotListele.TabIndex = 18;
             this.btnNotListele.Text = "Not Listele";
             this.btnNotListele.UseVisualStyleBackColor = true;
             this.btnNotListele.Click += new System.EventHandler(this.btnNotListele_Click);
             // 
+            // btnprosedur
+            // 
+            this.btnprosedur.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnprosedur.Location = new System.Drawing.Point(12, 530);
+            this.btnprosedur.Name = "btnprosedur";
+            this.btnprosedur.Size = new System.Drawing.Size(149, 35);
+            this.btnprosedur.TabIndex = 19;
+            this.btnprosedur.Text = "prosedür";
+            this.btnprosedur.UseVisualStyleBackColor = true;
+            this.btnprosedur.Click += new System.EventHandler(this.btnprosedur_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(844, 559);
+            this.ClientSize = new System.Drawing.Size(844, 575);
+            this.Controls.Add(this.btnprosedur);
             this.Controls.Add(this.btnNotListele);
             this.Controls.Add(this.btnDersListesi);
             this.Controls.Add(this.groupBox3);
@@ -484,6 +497,7 @@
         private System.Windows.Forms.Button btnNotListele;
         private System.Windows.Forms.Button btnNotgüncelle;
         private System.Windows.Forms.Button btnHesapla;
+        private System.Windows.Forms.Button btnprosedur;
     }
 }
 
