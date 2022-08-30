@@ -101,7 +101,14 @@ namespace Entityörnek
             dataGridView1.DataSource = db.NOTLISTESI();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = db.TBLOGRENCİ.Where(x => x.AD == txtad.Text | x.SOYAD==txtsoyad.Text ).ToList();
 
+
+            dataGridView1.Columns[3].Visible = false; 
+            dataGridView1.Columns[4].Visible = false;
+        }
 
 
 
@@ -125,10 +132,7 @@ namespace Entityörnek
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
