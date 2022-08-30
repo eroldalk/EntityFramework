@@ -73,6 +73,12 @@
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.radioButton12 = new System.Windows.Forms.RadioButton();
+            this.radioButton13 = new System.Windows.Forms.RadioButton();
+            this.radioButton14 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -305,7 +311,7 @@
             // 
             // btnNotgüncelle
             // 
-            this.btnNotgüncelle.Location = new System.Drawing.Point(95, 248);
+            this.btnNotgüncelle.Location = new System.Drawing.Point(96, 257);
             this.btnNotgüncelle.Name = "btnNotgüncelle";
             this.btnNotgüncelle.Size = new System.Drawing.Size(225, 35);
             this.btnNotgüncelle.TabIndex = 25;
@@ -314,7 +320,7 @@
             // 
             // btnHesapla
             // 
-            this.btnHesapla.Location = new System.Drawing.Point(95, 210);
+            this.btnHesapla.Location = new System.Drawing.Point(96, 219);
             this.btnHesapla.Name = "btnHesapla";
             this.btnHesapla.Size = new System.Drawing.Size(225, 35);
             this.btnHesapla.TabIndex = 24;
@@ -454,7 +460,7 @@
             // btnlingentity
             // 
             this.btnlingentity.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnlingentity.Location = new System.Drawing.Point(838, 459);
+            this.btnlingentity.Location = new System.Drawing.Point(847, 489);
             this.btnlingentity.Name = "btnlingentity";
             this.btnlingentity.Size = new System.Drawing.Size(219, 50);
             this.btnlingentity.TabIndex = 21;
@@ -466,7 +472,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton2.Location = new System.Drawing.Point(845, 78);
+            this.radioButton2.Location = new System.Drawing.Point(845, 65);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(208, 24);
             this.radioButton2.TabIndex = 22;
@@ -478,7 +484,7 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton3.Location = new System.Drawing.Point(845, 117);
+            this.radioButton3.Location = new System.Drawing.Point(845, 95);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(102, 24);
             this.radioButton3.TabIndex = 23;
@@ -490,7 +496,7 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton4.Location = new System.Drawing.Point(847, 158);
+            this.radioButton4.Location = new System.Drawing.Point(845, 125);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(187, 24);
             this.radioButton4.TabIndex = 24;
@@ -503,7 +509,7 @@
             // 
             this.radioButton5.AutoSize = true;
             this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton5.Location = new System.Drawing.Point(849, 199);
+            this.radioButton5.Location = new System.Drawing.Point(845, 153);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(185, 24);
             this.radioButton5.TabIndex = 25;
@@ -515,7 +521,7 @@
             // 
             this.radioButton6.AutoSize = true;
             this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton6.Location = new System.Drawing.Point(849, 245);
+            this.radioButton6.Location = new System.Drawing.Point(847, 182);
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(155, 24);
             this.radioButton6.TabIndex = 26;
@@ -527,7 +533,7 @@
             // 
             this.radioButton7.AutoSize = true;
             this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton7.Location = new System.Drawing.Point(847, 286);
+            this.radioButton7.Location = new System.Drawing.Point(847, 212);
             this.radioButton7.Name = "radioButton7";
             this.radioButton7.Size = new System.Drawing.Size(136, 24);
             this.radioButton7.TabIndex = 27;
@@ -539,7 +545,7 @@
             // 
             this.radioButton8.AutoSize = true;
             this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton8.Location = new System.Drawing.Point(845, 327);
+            this.radioButton8.Location = new System.Drawing.Point(846, 248);
             this.radioButton8.Name = "radioButton8";
             this.radioButton8.Size = new System.Drawing.Size(199, 24);
             this.radioButton8.TabIndex = 28;
@@ -547,11 +553,89 @@
             this.radioButton8.Text = "Toplam Öğrenci Sayısı";
             this.radioButton8.UseVisualStyleBackColor = true;
             // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.radioButton9.Location = new System.Drawing.Point(846, 282);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(188, 24);
+            this.radioButton9.TabIndex = 29;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.Text = "Sınav 1 Toplam Puan";
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.radioButton10.Location = new System.Drawing.Point(846, 314);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(204, 24);
+            this.radioButton10.TabIndex = 30;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.Text = "Sınav 1 Ortalama puanı";
+            this.radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.radioButton11.Location = new System.Drawing.Point(846, 344);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(216, 24);
+            this.radioButton11.TabIndex = 31;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.Text = "1.sınavları yüksek olanlar";
+            this.radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // radioButton12
+            // 
+            this.radioButton12.AutoSize = true;
+            this.radioButton12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.radioButton12.Location = new System.Drawing.Point(846, 374);
+            this.radioButton12.Name = "radioButton12";
+            this.radioButton12.Size = new System.Drawing.Size(167, 24);
+            this.radioButton12.TabIndex = 32;
+            this.radioButton12.TabStop = true;
+            this.radioButton12.Text = "1.Sınavı en yüksek";
+            this.radioButton12.UseVisualStyleBackColor = true;
+            // 
+            // radioButton13
+            // 
+            this.radioButton13.AutoSize = true;
+            this.radioButton13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.radioButton13.Location = new System.Drawing.Point(847, 404);
+            this.radioButton13.Name = "radioButton13";
+            this.radioButton13.Size = new System.Drawing.Size(166, 24);
+            this.radioButton13.TabIndex = 33;
+            this.radioButton13.TabStop = true;
+            this.radioButton13.Text = "1.Sınavı En Düşük";
+            this.radioButton13.UseVisualStyleBackColor = true;
+            // 
+            // radioButton14
+            // 
+            this.radioButton14.AutoSize = true;
+            this.radioButton14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.radioButton14.Location = new System.Drawing.Point(847, 434);
+            this.radioButton14.Name = "radioButton14";
+            this.radioButton14.Size = new System.Drawing.Size(184, 24);
+            this.radioButton14.TabIndex = 34;
+            this.radioButton14.TabStop = true;
+            this.radioButton14.Text = "1.Sınav notu kime ait";
+            this.radioButton14.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1084, 575);
+            this.Controls.Add(this.radioButton14);
+            this.Controls.Add(this.radioButton13);
+            this.Controls.Add(this.radioButton12);
+            this.Controls.Add(this.radioButton11);
+            this.Controls.Add(this.radioButton10);
+            this.Controls.Add(this.radioButton9);
             this.Controls.Add(this.radioButton8);
             this.Controls.Add(this.radioButton7);
             this.Controls.Add(this.radioButton6);
@@ -635,6 +719,12 @@
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.RadioButton radioButton7;
         private System.Windows.Forms.RadioButton radioButton8;
+        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.RadioButton radioButton10;
+        private System.Windows.Forms.RadioButton radioButton11;
+        private System.Windows.Forms.RadioButton radioButton12;
+        private System.Windows.Forms.RadioButton radioButton13;
+        private System.Windows.Forms.RadioButton radioButton14;
     }
 }
 
