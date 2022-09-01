@@ -45,7 +45,9 @@ namespace Entityörnek
                         select new
                         {
                             item.NOTID,
-                            item.OGR,
+                            item.TBLOGRENCİ.AD,
+                            item.TBLOGRENCİ.SOYAD,
+                            item.TBLDERSLER.DERSAD,
                             item.DERS,
                             item.SINAV1,
                             item.SINAV2,
@@ -60,11 +62,13 @@ namespace Entityörnek
 
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
+
             TBLOGRENCİ t = new TBLOGRENCİ();
             t.AD = txtad.Text;
             t.SOYAD = txtsoyad.Text;
             db.TBLOGRENCİ.Add(t);
             db.SaveChanges();
+            int deger = db.SaveChanges();
             MessageBox.Show("Öğrenci Listeye Eklenmiştir.");
 
 
@@ -205,7 +209,27 @@ namespace Entityörnek
 
             }
         }
+        private void btnjoin_Click(object sender, EventArgs e)
+        {
+            var sorgu = from d1 in db.TBLNOTLAR
+                        join d2 in db.TBLOGRENCİ
+                        on d1.OGR equals d2.ID
+                        join d3 in db.TBLDERSLER
+                        on d1.DERS equals d3.DERSID
 
+
+                        select new
+                        {
+
+                            ÖĞRENCİ = d2.AD + " " + d2.SOYAD,
+                            DERS=d3.DERSAD,
+                            SINAV1 = d1.SINAV1,
+                            SINAV2 = d1.SINAV2,
+                            SINAV3 = d1.SINAV3,
+                            ORTALAMA = d1.ORTALAMA
+                        };
+            dataGridView1.DataSource = sorgu.ToList();
+        }
 
 
 
@@ -236,5 +260,7 @@ namespace Entityörnek
         {
 
         }
+
+
     }
 }

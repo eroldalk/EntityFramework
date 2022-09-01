@@ -49,7 +49,7 @@
             this.txtdersid = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnNotgüncelle = new System.Windows.Forms.Button();
+            this.btnjoin = new System.Windows.Forms.Button();
             this.btnHesapla = new System.Windows.Forms.Button();
             this.txtDurum = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -289,7 +289,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.btnNotgüncelle);
+            this.groupBox3.Controls.Add(this.btnjoin);
             this.groupBox3.Controls.Add(this.btnHesapla);
             this.groupBox3.Controls.Add(this.txtDurum);
             this.groupBox3.Controls.Add(this.label11);
@@ -309,14 +309,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Notlar";
             // 
-            // btnNotgüncelle
+            // btnjoin
             // 
-            this.btnNotgüncelle.Location = new System.Drawing.Point(96, 257);
-            this.btnNotgüncelle.Name = "btnNotgüncelle";
-            this.btnNotgüncelle.Size = new System.Drawing.Size(225, 35);
-            this.btnNotgüncelle.TabIndex = 25;
-            this.btnNotgüncelle.Text = "Not Güncelle";
-            this.btnNotgüncelle.UseVisualStyleBackColor = true;
+            this.btnjoin.Location = new System.Drawing.Point(96, 257);
+            this.btnjoin.Name = "btnjoin";
+            this.btnjoin.Size = new System.Drawing.Size(225, 35);
+            this.btnjoin.TabIndex = 25;
+            this.btnjoin.Text = "Join ile Getir";
+            this.btnjoin.UseVisualStyleBackColor = true;
+            this.btnjoin.Click += new System.EventHandler(this.btnjoin_Click);
             // 
             // btnHesapla
             // 
@@ -707,7 +708,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button btnDersListesi;
         private System.Windows.Forms.Button btnNotListele;
-        private System.Windows.Forms.Button btnNotgüncelle;
+        private System.Windows.Forms.Button btnjoin;
         private System.Windows.Forms.Button btnHesapla;
         private System.Windows.Forms.Button btnprosedur;
         private System.Windows.Forms.RadioButton radioButton1;
