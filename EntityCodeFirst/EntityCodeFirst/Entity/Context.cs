@@ -9,10 +9,8 @@ namespace EntityCodeFirst.Entity
 {
     public class Context: DbContext
     {
-        public DbSet<Urunler> urunlers { get; set; }
-        //public string UrunAd { get; set; }
-        //public string UrunMarka { get; set; }
-        //public string UrunKategori { get; set; }
-        //public int UrunStok { get; set; }
+        public DbSet<Urunler> Urunlers { get; set; }
+
+        public string Acıklama { get; set; }
     }
 }
