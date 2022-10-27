@@ -11,6 +11,6 @@ namespace EntityCodeFirst.Entity
     {
         public DbSet<Urunler> Urunlers { get; set; }
         public DbSet<Kategori> Kategoris { get; set; }
-        public DbSet<Musteri> Musteris { get; set; }
+       
     }
 }

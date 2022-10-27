@@ -82,6 +82,18 @@
     <Compile Include="Migrations\202210271312438_RenameMusteriSoyadToMusteriUnvanInMusterisTable.designer.cs">
       <DependentUpon>202210271312438_RenameMusteriSoyadToMusteriUnvanInMusterisTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202210271437329_CreateKategoriDetayColumnInKategorisTable.cs" />
+    <Compile Include="Migrations\202210271437329_CreateKategoriDetayColumnInKategorisTable.designer.cs">
+      <DependentUpon>202210271437329_CreateKategoriDetayColumnInKategorisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202210271450512_DeleteKategoriDetayColumnInKategorisTable.cs" />
+    <Compile Include="Migrations\202210271450512_DeleteKategoriDetayColumnInKategorisTable.designer.cs">
+      <DependentUpon>202210271450512_DeleteKategoriDetayColumnInKategorisTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202210271454202_DeleteMusterisTable.cs" />
+    <Compile Include="Migrations\202210271454202_DeleteMusterisTable.designer.cs">
+      <DependentUpon>202210271454202_DeleteMusterisTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -99,6 +111,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202210271312438_RenameMusteriSoyadToMusteriUnvanInMusterisTable.resx">
       <DependentUpon>202210271312438_RenameMusteriSoyadToMusteriUnvanInMusterisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202210271437329_CreateKategoriDetayColumnInKategorisTable.resx">
+      <DependentUpon>202210271437329_CreateKategoriDetayColumnInKategorisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202210271450512_DeleteKategoriDetayColumnInKategorisTable.resx">
+      <DependentUpon>202210271450512_DeleteKategoriDetayColumnInKategorisTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202210271454202_DeleteMusterisTable.resx">
+      <DependentUpon>202210271454202_DeleteMusterisTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
