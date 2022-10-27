@@ -17,3 +17,4 @@ C:\Users\Lenovo\Desktop\EntityFramework\EntityCodeFirst\EntityCodeFirst\obj\Debu
 C:\Users\Lenovo\Desktop\EntityFramework\EntityCodeFirst\EntityCodeFirst\obj\Debug\EntityCodeFirst.Migrations.InitialCreate.resources
 C:\Users\Lenovo\Desktop\EntityFramework\EntityCodeFirst\EntityCodeFirst\obj\Debug\EntityCodeFirst.Migrations.CreateMusteriTable.resources
 C:\Users\Lenovo\Desktop\EntityFramework\EntityCodeFirst\EntityCodeFirst\obj\Debug\EntityCodeFirst.Migrations.CreateMusteriSehirColumnInMusterisTable.resources
+C:\Users\Lenovo\Desktop\EntityFramework\EntityCodeFirst\EntityCodeFirst\obj\Debug\EntityCodeFirst.Migrations.RenameMusteriSoyadToMusteriUnvanInMusterisTable.resources
