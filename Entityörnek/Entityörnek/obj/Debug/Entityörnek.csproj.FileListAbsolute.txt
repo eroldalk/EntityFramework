@@ -14,3 +14,4 @@ C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Enti
 C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Entityörnek.csproj.CopyComplete
 C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Entityörnek.exe
 C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Entityörnek.pdb
+C:\Users\Lenovo\Desktop\EntityFramework\Entityörnek\Entityörnek\obj\Debug\Entityörnek.Form2.resources
