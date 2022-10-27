@@ -10,7 +10,7 @@ namespace EntityCodeFirst.Entity
     {
         public int UrunID { get; set; }
         public string UrunAd { get; set; }
-        public string UrunMarka { get; set; }
+        public string UrunMarka { get; set; }deneme
         public string UrunKategori { get; set; }
         public int UrunStok { get; set; }
     }
