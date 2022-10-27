@@ -74,6 +74,10 @@
     <Compile Include="Migrations\202210271252485_CreateMusteriTable.designer.cs">
       <DependentUpon>202210271252485_CreateMusteriTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202210271305384_CreateMusteriSehirColumnInMusterisTable.cs" />
+    <Compile Include="Migrations\202210271305384_CreateMusteriSehirColumnInMusterisTable.designer.cs">
+      <DependentUpon>202210271305384_CreateMusteriSehirColumnInMusterisTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -85,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202210271252485_CreateMusteriTable.resx">
       <DependentUpon>202210271252485_CreateMusteriTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202210271305384_CreateMusteriSehirColumnInMusterisTable.resx">
+      <DependentUpon>202210271305384_CreateMusteriSehirColumnInMusterisTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
