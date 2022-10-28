@@ -72,13 +72,33 @@ namespace Entityörnek
             }
             if (radioButton8.Checked == true)
             {
-                var degerler = db.TBLNOTLAR.SelectMany(x => db.TBLOGRENCİ.Where(y => y.ID == x.OGR),(x,y)=>
-                new
-                {
-                    y.AD,
-                    x.ORTALAMA,
-                    Durumu = x.DURUM == true ? "Geçti" : "Kaldı"
-                });
+                var degerler = db.TBLNOTLAR.SelectMany(x => db.TBLOGRENCİ.Where(y => y.ID == x.OGR), (x, y) =>
+                 new
+                 {
+                     y.AD,
+                     x.ORTALAMA,
+                     Durumu = x.DURUM == true ? "Geçti" : "Kaldı"
+                 });
+                dataGridView1.DataSource = degerler.ToList();
+            }
+            if (radioButton9.Checked == true)
+            {
+                var degerler = db.TBLOGRENCİ.OrderBy(x => x.ID).Take(3);
+                dataGridView1.DataSource = degerler.ToList();
+            }
+            if (radioButton10.Checked == true)
+            {
+                var degerler = db.TBLOGRENCİ.OrderByDescending(x => x.ID).Take(3);
+                dataGridView1.DataSource = degerler.ToList();
+            }
+            if (radioButton11.Checked == true)
+            {
+                var degerler = db.TBLOGRENCİ.OrderBy(x => x.AD); //OrderByDescending yazınca sondan sıralar
+                dataGridView1.DataSource = degerler.ToList();
+            }
+            if (radioButton12.Checked == true)
+            {
+                var degerler = db.TBLOGRENCİ.OrderBy(x => x.ID).Skip(5);
                 dataGridView1.DataSource = degerler.ToList();
             }
         }
