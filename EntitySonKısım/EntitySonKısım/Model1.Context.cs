@@ -29,5 +29,6 @@ namespace EntitySonKısım
         public virtual DbSet<TBLKULUPLER> TBLKULUPLERs { get; set; }
         public virtual DbSet<TBLNOTLAR> TBLNOTLARs { get; set; }
         public virtual DbSet<TBLOGRENCİ> TBLOGRENCİ { get; set; }
+        public virtual DbSet<TBLURUN> TBLURUNs { get; set; }
     }
 }
