@@ -1,0 +1,16 @@
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\bin\Debug\EntitySonKısım.exe.config
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\bin\Debug\EntitySonKısım.exe
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\bin\Debug\EntitySonKısım.pdb
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\obj\Debug\EntitySonKısım.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\obj\Debug\EntitySonKısım.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\obj\Debug\EntitySonKısım.Form1.resources
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\obj\Debug\EntitySonKısım.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\obj\Debug\EntitySonKısım.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\obj\Debug\EntitySonKısım.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\obj\Debug\EntitySonKısım.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\obj\Debug\EntitySonKısım.exe
+C:\Users\Lenovo\Desktop\EntityFramework\EntitySonKısım\EntitySonKısım\obj\Debug\EntitySonKısım.pdb
