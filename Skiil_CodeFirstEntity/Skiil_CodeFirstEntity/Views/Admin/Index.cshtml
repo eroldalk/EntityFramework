@@ -10,6 +10,8 @@
             <th>ID</th>
             <th>Yetenek</th>
             <th>Değer</th>
+            <th>Sil</th>
+            <th>Güncelle</th>
         </tr>
         @foreach (var a in Model)
         {
@@ -17,6 +19,8 @@
                 <td>@a.ID</td>
                 <td>@a.ACIKLAMA</td>
                 <td>@a.DEGER</td>
+                <td><a href="/Admin/YetenekSil/@a.ID" class="btn btn-danger">Sil</a></td>
+                <td><a href="/Admin/YetenekGüncelle/@a.ID" class="btn btn-success">Güncelle</a></td>
             </tr>
         }
     </table>

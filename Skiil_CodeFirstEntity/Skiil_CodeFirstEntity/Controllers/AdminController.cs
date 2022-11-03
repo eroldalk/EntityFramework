@@ -31,5 +31,12 @@ namespace Skiil_CodeFirstEntity.Controllers
             c.SaveChanges();
             return View();
         }
+        public ActionResult YetenekSil(int id)
+        {
+            var deger = c.Yeteneklers.Find(id);
+            c.Yeteneklers.Remove(deger);
+            c.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
