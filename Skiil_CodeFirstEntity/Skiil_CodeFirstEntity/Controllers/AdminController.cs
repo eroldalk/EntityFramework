@@ -38,11 +38,22 @@ namespace Skiil_CodeFirstEntity.Controllers
             c.SaveChanges();
             return RedirectToAction("Index");
         }
+        [HttpGet]
         public ActionResult YetenekGuncelle(int id)
         {
             var deger = c.Yeteneklers.Find(id);
 
             return View("YetenekGuncelle",deger);
+        }
+        [HttpPost]
+        public ActionResult YetenekGuncelle(Yetenekler y)
+        {
+            var x = c.Yeteneklers.Find(y.ID);
+            x.ACIKLAMA=y.ACIKLAMA;
+            x.DEGER=y.DEGER;
+            c.SaveChanges();
+
+            return RedirectToAction("Index");
         }
     }
 }
