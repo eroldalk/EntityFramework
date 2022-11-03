@@ -1,0 +1,22 @@
+﻿@using Skiil_CodeFirstEntity.Models.Siniflar
+@model List<Yetenekler>
+    @{
+        ViewBag.Title = "Index";
+        Layout = "~/Views/Shared/_layoutNavbar.cshtml";
+    }
+
+    <table class="table table-bordered">
+        <tr>
+            <th>ID</th>
+            <th>Yetenek</th>
+            <th>Değer</th>
+        </tr>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td>@a.ID</td>
+                <td>@a.ACIKLAMA</td>
+                <td>@a.DEGER</td>
+            </tr>
+        }
+    </table>
