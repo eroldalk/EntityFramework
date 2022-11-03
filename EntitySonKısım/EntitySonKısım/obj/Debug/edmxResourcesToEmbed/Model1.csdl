@@ -40,6 +40,7 @@
     <Property Name="FOTOGRAF" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="SEHİR" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <NavigationProperty Name="TBLNOTLARs" Relationship="Self.FK_TBLNOTLAR_TBLOGRENCİ" FromRole="TBLOGRENCİ" ToRole="TBLNOTLAR" />
+    <Property Name="OGRKULUP" Type="Int16" />
   </EntityType>
   <Association Name="FK_TBLNOTLAR_TBLDERSLER">
     <End Role="TBLDERSLER" Type="Self.TBLDERSLER" Multiplicity="0..1" />
@@ -78,5 +79,16 @@
       <End Role="TBLOGRENCİ" EntitySet="TBLOGRENCİ" />
       <End Role="TBLNOTLAR" EntitySet="TBLNOTLARs" />
     </AssociationSet>
+    <EntitySet Name="TBLURUNs" EntityType="DbSınavOgrenciModel.TBLURUN" />
   </EntityContainer>
+  <EntityType Name="TBLURUN">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MARKA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FİYAT" Type="Int32" />
+    <Property Name="STOK" Type="Int32" />
+  </EntityType>
 </Schema>

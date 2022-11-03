@@ -30,7 +30,10 @@ namespace EntitySonKısım
             //label1.Text = db.TBLURUNs.Count().ToString();
             //label1.Text = db.TBLURUNs.Count(X=>X.AD == "BUZDOLABI").ToString();
             //label1.Text = db.TBLURUNs.Average(X => X.FİYAT).ToString();
-            label1.Text = db.TBLURUNs.Average(X => X.FİYAT).ToString();
+            //label1.Text = db.TBLURUNs.Average(X => X.FİYAT).ToString();
+            //label1.Text = (from x in db.TBLURUNs 
+              //             orderby x.STOK ascending
+                //           select x.AD).First();
         }
     }
 }

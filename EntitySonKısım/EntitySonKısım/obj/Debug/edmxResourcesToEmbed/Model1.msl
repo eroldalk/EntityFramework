@@ -34,11 +34,23 @@
     <EntitySetMapping Name="TBLOGRENCİ">
       <EntityTypeMapping TypeName="DbSınavOgrenciModel.TBLOGRENCİ">
         <MappingFragment StoreEntitySet="TBLOGRENCİ">
+          <ScalarProperty Name="OGRKULUP" ColumnName="OGRKULUP" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="AD" ColumnName="AD" />
           <ScalarProperty Name="SOYAD" ColumnName="SOYAD" />
           <ScalarProperty Name="FOTOGRAF" ColumnName="FOTOGRAF" />
           <ScalarProperty Name="SEHİR" ColumnName="SEHİR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLURUNs">
+      <EntityTypeMapping TypeName="DbSınavOgrenciModel.TBLURUN">
+        <MappingFragment StoreEntitySet="TBLURUN">
+          <ScalarProperty Name="STOK" ColumnName="STOK" />
+          <ScalarProperty Name="FİYAT" ColumnName="FİYAT" />
+          <ScalarProperty Name="MARKA" ColumnName="MARKA" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

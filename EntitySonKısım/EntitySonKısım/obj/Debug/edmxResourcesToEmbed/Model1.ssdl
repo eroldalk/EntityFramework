@@ -36,6 +36,17 @@
     <Property Name="SOYAD" Type="varchar" MaxLength="20" />
     <Property Name="FOTOGRAF" Type="varchar" MaxLength="100" />
     <Property Name="SEHİR" Type="nvarchar" MaxLength="20" />
+    <Property Name="OGRKULUP" Type="smallint" />
+  </EntityType>
+  <EntityType Name="TBLURUN">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AD" Type="varchar" MaxLength="50" />
+    <Property Name="MARKA" Type="varchar" MaxLength="50" />
+    <Property Name="FİYAT" Type="int" />
+    <Property Name="STOK" Type="int" />
   </EntityType>
   <Association Name="FK_TBLNOTLAR_TBLDERSLER">
     <End Role="TBLDERSLER" Type="Self.TBLDERSLER" Multiplicity="0..1" />
@@ -66,6 +77,7 @@
     <EntitySet Name="TBLKULUPLER" EntityType="Self.TBLKULUPLER" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TBLNOTLAR" EntityType="Self.TBLNOTLAR" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TBLOGRENCİ" EntityType="Self.TBLOGRENCİ" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLURUN" EntityType="Self.TBLURUN" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_TBLNOTLAR_TBLDERSLER" Association="Self.FK_TBLNOTLAR_TBLDERSLER">
       <End Role="TBLDERSLER" EntitySet="TBLDERSLER" />
       <End Role="TBLNOTLAR" EntitySet="TBLNOTLAR" />
